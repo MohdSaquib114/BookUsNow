@@ -5,7 +5,7 @@ import { useEffect, useState } from "react"
 
 
 export default function Show() {
-    const [show,setShow] = useState<Event[]>(null)
+    const [show,setShow] = useState<Event[]>()
   // const [ loading,setLoading] = useState(true)
   useEffect(()=>{
     async function eventFetch(){

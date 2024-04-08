@@ -1,4 +1,3 @@
-
 import HamburgerIcon from "./ui/HamburgerIcon"
 import HeartIcon from "./ui/HeartIcon"
 import LeftIcon from "./ui/LeftIcon"
@@ -6,6 +5,7 @@ import MarkIcon from "./ui/MarkIcon"
 import SearchIcon from "./ui/SearchIcon"
 import Events from "./component/Events"
 import Show from "./component/Show"
+
 
 export type Event ={
   cityName:string,
@@ -17,8 +17,7 @@ export type Event ={
 }
 
 export default function App() {
-  
-
+   
   return (
     <>
     <div className="px-20 py-5 flex flex-col gap-3 text-neutral-800" >
@@ -79,5 +78,3 @@ export default function App() {
   )
 }
 
-
-// 
